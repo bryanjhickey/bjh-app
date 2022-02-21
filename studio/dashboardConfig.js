@@ -25,10 +25,10 @@ export default {
                   apiId: '9d70837b-a0e3-4f17-a28f-9d4a6c12c455'
                 },
                 {
-                  buildHookId: '620c5fd0ee742c4d016c1987',
+                  buildHookId: '6213220e04ce5411c507f743',
                   title: 'Studio',
-                  name: 'eloquent-jennings-36e5c1',
-                  apiId: '11736abf-fb41-4114-bec7-9c78db14c686'
+                  name: 'bjhdev-cms',
+                  apiId: 'fde84312-dbc2-4fe7-842d-914dc3e21443'
                 }
               ]
             }
