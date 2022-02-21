@@ -1,10 +1,10 @@
 {
-  "name": "bryanjameshickey",
+  "name": "studio",
   "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "package.json",
-  "author": "Bryan Hickey <bh@bigmanmedia.com.au>",
+  "author": "Bryan Hickey <bjh@bjh.dev> (https://www.bjh.dev/)",
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
