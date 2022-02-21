@@ -1,7 +1,13 @@
 export default {
   widgets: [
-    { name: 'structure-menu' },
     {
+      name: 'sanity-tutorials',
+      layout: {
+        width: 'full',
+        height: 'auto'
+      }
+    },
+{
       name: 'project-info',
       options: {
         __experimental_before: [
@@ -13,10 +19,10 @@ export default {
                 'NOTE: Because these sites are static builds, they need to be re-deployed to see the changes when documents are published.',
               sites: [
                 {
-                  buildHookId: '620c60b72ccced58c02d2342',
+                  buildHookId: '620ae03b66adee00ac7d2fb1',
                   title: 'Website',
-                  name: 'objective-euclid-307383',
-                  apiId: '42d1c234-900f-4484-aeda-1ba43bcc1da0'
+                  name: 'bjhdev',
+                  apiId: '9d70837b-a0e3-4f17-a28f-9d4a6c12c455'
                 },
                 {
                   buildHookId: '620c5fd0ee742c4d016c1987',
@@ -31,10 +37,10 @@ export default {
         data: [
           {
             title: 'GitHub repo',
-            value: 'https://github.com/bryanjhickey/gatsby-ts-sanity-starter/',
+            value: 'https://github.com/bryanjhickey/bjh-app',
             category: 'Code'
           },
-          { title: 'Frontend', value: 'https://objective-euclid-307383.netlify.app/', category: 'apps' }
+          { title: 'Frontend', value: 'https://www.bjh.dev/', category: 'apps' }
         ]
       }
     },
@@ -45,8 +51,10 @@ export default {
     },
     {
       name: 'project-users',
-      layout: { height: 'auto' },
-      options: {title: 'Project Users' }
+      layout: {
+        width: 'medium',
+        height: 'small'
+      }
     }
   ]
 }

@@ -2,8 +2,6 @@
 /logs
 *.log
 
-# dotenv environment variable files
-.env*
 # Coverage directory used by tools like istanbul
 /coverage
 
