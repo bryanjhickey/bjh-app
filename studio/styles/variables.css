@@ -1,0 +1,229 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+:root {
+  /* Brand colors */
+  /* --brand-primary: #16a34a;
+  --brand-primary--inverted: #ffffff;
+  --brand-secondary: #4ade80;
+  --brand-secondary--inverted: #111820; */
+   /* Typography */
+  /* --font-family-sans-serif: 'Inter';
+  --font-size-base: 18px;
+  --text-color: var(--brand-secondary--inverted); */
+   /* Main Navigation */
+  /* --main-navigation-color: var(--brand-secondary--inverted);
+  --main-navigation-color--inverted: var(--brand-primary--inverted); */
+}
+@import url('https://rsms.me/inter/inter.css');:root { /* 32em */ /* 40em */ /* 60em */ /* 100em */
+
+  /* medium */
+  /* @custom-media --min-medium (min-width: 512px); */
+
+  /* default */
+  /* @custom-media --min-default (min-width: 640px); */
+
+  /* large */
+  /* @custom-media --min-large (min-width: 960px); */
+
+  /* xlarge */
+
+  /* print */
+}:root {
+
+  /* Base */
+}:root {
+  /* Shades */
+
+  /* Deprecated: */
+}:root {
+  /* Code */
+
+  /* KBD */
+
+  /* Pre */
+}:root {
+  /* Body */
+
+  /* Preview */
+
+  /* Backdrop */
+
+  /* Main navigation */
+
+  /* Dialog */
+
+  /* Header */
+  /* @todo: add comment about WHICH header it refers to */
+
+  /* Checkerboard */
+
+  /* Hairline */
+
+  /* Component */
+
+  /* Button */
+
+  /* "Default" button */ /* not in use */ /* not in use */
+
+  /* Shadows */
+
+  /* Border radius */
+
+  /* Padding */
+
+  /* Text selection */
+
+  /* Block editor */
+
+  /* Timeline event */
+
+  /* Others */ /* 55px */
+}:root {
+  /* Focus */
+
+  /* Input */
+
+  /* Label */
+
+  /* Legend */
+
+  /* Cursor */
+
+  /* Clear cross */
+
+  /* fieldset */
+
+  /* Form builder */
+  /* deprecated: */
+}/*
+  NOTE: most browsers operate with a max. z-index of 2147483647
+  – the maximum positive value for a 32-bit signed binary integer.
+  NOTE: Safari 0–3 operate with a max. z-index of 16777271
+*/:root {
+
+  /* NOT IN USE */
+}:root {
+  /* Selectable item */
+
+  /* Selected Item */
+}:root {
+  /* success */
+
+  /* info */
+
+  /* warning */
+
+  /* danger */
+}:root {
+
+  /* Font families */
+
+  /* Huge */ /* 21px */ /* 28px */
+
+  /* Large */ /* 18px */ /* 24px */ /* @todo: deprecate */
+
+  /* Base */ /* 16px */ /* 20px */ /* @todo: deprecate */
+
+  /* Small */ /* 13px */ /* 16px */
+
+  /* Xsmall */ /* 10px */ /* 12px */ /* @todo: deprecate */
+
+  /* Xsmall (uppercase) */ /* 11px */ /* 12px */ /* @todo: deprecate */
+
+  /* Tiny */ /* 10px */ /* 12px */ /* @todo: deprecate */
+
+  /* Heading 1 */ /* 33px */ /* 40px */
+
+  /* Heading 2 */ /* 27px */ /* 36px */
+
+  /* Heading 3 */ /* 21px */ /* 28px */
+
+  /* Heading 4 */ /* 16px */ /* 20px */
+
+  /* Heading 5 */ /* 13px */ /* 16px */
+
+  /* Heading 6 */ /* 16px */
+
+  /* Blockquote */
+
+  /* Page header */
+
+  /* HR */
+
+  /* Preview */
+
+  /* Icon */ /* 25px based on 16px */
+
+  /* Misc */
+}/* custom */html { font-family: 'Inter', sans-serif; }@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}:root {
+  /* Brand colors */
+  /* --brand-primary: #16a34a;
+  --brand-primary--inverted: #ffffff;
+  --brand-secondary: #4ade80;
+  --brand-secondary--inverted: #111820; */
+   /* Typography */
+  /* --font-family-sans-serif: 'Inter';
+  --font-size-base: 18px;
+  --text-color: var(--brand-secondary--inverted); */
+   /* Main Navigation */
+  /* --main-navigation-color: var(--brand-secondary--inverted);
+  --main-navigation-color--inverted: var(--brand-primary--inverted); */
+}.root {
+  text-align: left;
+  display: block;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.1;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}.heading1 {
+  composes: root;
+  font-size: 33px;
+  font-size: 2.0625rem;
+  line-height: 1.21212;
+  margin: 16px 0;
+  margin: 1rem 0;
+}.heading2 {
+  composes: root;
+  font-size: 27px;
+  font-size: 1.6875rem;
+  line-height: 1.33333;
+  margin: 16px;
+  margin: 1rem 0;
+}.heading3 {
+  composes: root;
+  font-size: 21px;
+  font-size: 1.3125rem;
+  line-height: 1.33333;
+  margin: 16px 0;
+  margin: 1rem 0;
+}.heading4 {
+  composes: root;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.25;
+  margin: 16px 0;
+  margin: 1rem 0;
+}.heading5 {
+  composes: root;
+  font-size: 13px;
+  font-size: 0.8125rem;
+  line-height: 1.23077;
+  margin: 8px 0;
+  margin: 0.5rem 0;
+}.heading6 {
+  composes: root;
+  font-size: 13px;
+  font-size: 0.8125rem;
+  line-height: 1.23077;
+  color: rgb(71, 87, 112);
+  margin: 8px 0;
+  margin: 0.5rem 0;
+}
