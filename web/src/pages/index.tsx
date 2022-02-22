@@ -30,15 +30,15 @@ export default function Home() {
             <defs>
               <linearGradient
                 id="a"
-                x1="-17%"
-                y1="8%"
-                x2="75%"
-                y2="74%"
+                x1="-25%"
+                y1="-5%"
+                x2="100%"
+                y2="100%"
                 gradientTransform="rotate(-45)"
               >
                 <stop offset="0%" stopColor="#b51fa3" />
                 <stop offset="50%" stopColor="#ffa300" />
-                <stop offset="100%" stopColor="#db311b" />
+                <stop offset="65%" stopColor="#db311b" />
               </linearGradient>
             </defs>
             <g data-name="Layer 2">
@@ -60,7 +60,7 @@ export default function Home() {
               href="https://reactjs.org/"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-normal underline after:content-['_↗'] hover:text-green-600"
+              className="p-1 font-normal underline  after:content-['_↗'] hover:bg-purple-500 hover:text-white"
             >
               React
             </a>
@@ -69,7 +69,7 @@ export default function Home() {
               href="https://www.gatsbyjs.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-normal underline after:content-['_↗'] hover:text-green-600"
+              className="p-1 font-normal underline  after:content-['_↗'] hover:bg-purple-500 hover:text-white"
             >
               Gatsby
             </a>
@@ -78,7 +78,7 @@ export default function Home() {
               href="https://nextjs.org/"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-normal underline after:content-['_↗'] hover:text-green-600"
+              className="p-1 font-normal underline  after:content-['_↗'] hover:bg-purple-500 hover:text-white"
             >
               Next
             </a>{' '}
@@ -87,7 +87,7 @@ export default function Home() {
               href="https://vuejs.org/"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-normal underline after:content-['_↗'] hover:text-green-600"
+              className="p-1 font-normal underline  after:content-['_↗'] hover:bg-purple-500 hover:text-white"
             >
               Vue
             </a>
