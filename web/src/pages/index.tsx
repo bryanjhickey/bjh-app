@@ -1,6 +1,7 @@
 import Layout from '@/components/Layout';
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import { FaPhoneAlt } from 'react-icons/fa';
 
 export default function Home() {
   return (
@@ -50,7 +51,7 @@ export default function Home() {
             </g>
           </svg>
         </div>
-        <div className="mt-12 text-sm">
+        <div className="mt-12 text-base lg:text-sm">
           <p>
             I&apos;m a freelance designer and developer based in Melbourne,
             Australia. I&apos;ve worked in web development, brand identity and
@@ -96,11 +97,19 @@ export default function Home() {
           <p className="mt-6">
             If you&apos;re considering a new website that won&apos;t let you
             down, I&apos;m open to talking with you more.{' '}
-            <a href="tel:0425854720">Give me a call.</a>
+          </p>
+          <p className="mt-6">
+            <a
+              className="rounded-sm bg-gray-300 p-2 font-normal text-white hover:bg-purple-500 hover:text-white"
+              href="tel:0425854720"
+            >
+              Give me a call.{' '}
+              <FaPhoneAlt className="mb-1 inline-block text-sm lg:text-xs" />
+            </a>
           </p>
         </div>
         <p className="mt-6 text-lg italic text-red-500">
-          More coming soon &elip;
+          More coming soon &hellip;
         </p>
       </div>
     </Layout>
