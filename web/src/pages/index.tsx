@@ -99,7 +99,9 @@ export default function Home() {
             <a href="tel:0425854720">Give me a call.</a>
           </p>
         </div>
-        <p className="mt-6 text-lg italic text-red-500">Coming Soon</p>
+        <p className="mt-6 text-lg italic text-red-500">
+          More coming soon &elip;
+        </p>
       </div>
     </Layout>
   );
