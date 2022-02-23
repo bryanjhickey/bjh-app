@@ -43,7 +43,7 @@ export default function Seo({
       <meta property="og:url" content={url} />
       <meta
         property="og:image"
-        content={`${imageUrl}?h=${1200}&w=${630}&fit=crop&crop=focalpoint&fp-x=${focalPointX}&fp-y=${focalPointY}`}
+        content={`${imageUrl}?h=${630}&w=${1200}&fit=crop&crop=focalpoint&fp-x=${focalPointX}&fp-y=${focalPointY}`}
       />
       {metaType && <meta property="og:type" content="article" />}
       <meta property="og:description" content={description} />
