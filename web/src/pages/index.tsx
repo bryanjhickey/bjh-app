@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <Layout>
       <Helmet>
+        <html lang="en" amp />
         <meta
           name="facebook-domain-verification"
           content="s07u1p449u2s2vwh14s1vmxrihljxt"
