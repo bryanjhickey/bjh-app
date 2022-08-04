@@ -109,9 +109,6 @@ export default function Home() {
             </a>
           </p>
         </div>
-        <p className="mt-6 text-lg italic text-red-500">
-          More coming soon &hellip;
-        </p>
       </div>
     </Layout>
   );
